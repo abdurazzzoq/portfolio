@@ -126,6 +126,28 @@ export const TECHNOLOGIES: TechDetails[] = [
 
 export const PROJECTS: ProjectDetails[] = [
   {
+    name: "Vumo-movie",
+    description: "My movie app was designed to provide users with a seamless and immersive movie watching experience, featuring a vast collection of films from different genres and countries, including the latestreleases and all-time classics. The app's innovative features and functionalities, such as personalized recommendations, advanced search, and user-generated content, have made it a go-to platform for movie enthusiasts around the world. Moreover, my movie app has been praised for its user-friendly interface and smooth performance, ensuring a flawless viewing experience for users across different devices and platforms.",
+    url: "https://vumo-movie.vercel.app/",
+    previewImage: 'https://user-images.githubusercontent.com/61585443/185205338-c20bb089-618f-49e2-b740-1c02838030a4.png',
+    technologies: [
+      "Next.js",
+      "Typescript",
+      "Tailwindcss",
+      "MaterialUI",
+      "Zustand",
+      "Context",
+      "Stripe",
+      "Formik",
+      "SSR",
+      "SEO",
+      "Subscription Plan",
+      "Payment",
+      "Firebase",
+
+    ],
+  },
+  {
     name: "Car Showcase",
     description:
       "A platform for comparing and finding affordable flights, as well as booking and purchasing tickets safely and easily in a few simple clicks.",
