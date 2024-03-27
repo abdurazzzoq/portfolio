@@ -59,8 +59,7 @@ const Header = () => {
           <div className="h-6 w-0.5 bg-gray-100"></div>
           <div className="flex items-center gap-4">
             <ThemeSwitcher />
-            <DownloadCV />
-          </div>
+                  </div>
         </div>
 
         <Drawer open={isOpen} onOpenChange={setIsOpen}>
@@ -102,7 +101,6 @@ const Header = () => {
                 <Typography>Switch Theme</Typography>
                 <ThemeSwitcher />
               </div>
-              <DownloadCV />
             </div>
           </DrawerContent>
         </Drawer>

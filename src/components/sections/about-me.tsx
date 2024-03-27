@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import SagarFullPose from "/public/images/person3.jpg";
+import SagarFullPose from "/public/images/meee.jpg";
 import Tag from "@/components/data-display/tag";
 import Container from "@/components/layout/container";
 import Typography from "@/components/general/typography";

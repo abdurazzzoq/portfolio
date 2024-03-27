@@ -15,11 +15,6 @@ import LogoGraphql from "/public/images/logos/graphql.svg";
 
 import LogoGit from "/public/images/logos/icon-git.svg";
 
-
-import ProjectFiskil from "/public/images/project-fiskil.png";
-import ProjectWingie from "/public/images/project-wingie.png";
-import ProjectPepehousing from "/public/images/project-pepehousing.png";
-
 import AvatarKrisztian from "/public/images/avatar-krisztian.png";
 import AvatarEugen from "/public/images/avatar-eugen.png";
 import AvatarDummy from "/public/images/avatar-dummy.svg";
@@ -126,28 +121,6 @@ export const TECHNOLOGIES: TechDetails[] = [
 
 export const PROJECTS: ProjectDetails[] = [
   {
-    name: "Vumo-movie",
-    description: "My movie app was designed to provide users with a seamless and immersive movie watching experience, featuring a vast collection of films from different genres and countries, including the latestreleases and all-time classics. The app's innovative features and functionalities, such as personalized recommendations, advanced search, and user-generated content, have made it a go-to platform for movie enthusiasts around the world. Moreover, my movie app has been praised for its user-friendly interface and smooth performance, ensuring a flawless viewing experience for users across different devices and platforms.",
-    url: "https://vumo-movie.vercel.app/",
-    previewImage: 'https://user-images.githubusercontent.com/61585443/185205338-c20bb089-618f-49e2-b740-1c02838030a4.png',
-    technologies: [
-      "Next.js",
-      "Typescript",
-      "Tailwindcss",
-      "MaterialUI",
-      "Zustand",
-      "Context",
-      "Stripe",
-      "Formik",
-      "SSR",
-      "SEO",
-      "Subscription Plan",
-      "Payment",
-      "Firebase",
-
-    ],
-  },
-  {
     name: "Car Showcase",
     description:
       "A platform for comparing and finding affordable flights, as well as booking and purchasing tickets safely and easily in a few simple clicks.",
@@ -175,21 +148,7 @@ export const PROJECTS: ProjectDetails[] = [
      "Rapid API",
      "Material UI"
     ],
-  },
-  {
-    name: "Charts",
-    description:
-      "A platform for illustrating charts a flat or room in Poland. You may browse hundreds of verified deals, contact the vendor, and pay online in a simple and secure manner.",
-    url: "https://test-frontend-cisv.vercel.app/",
-    previewImage: 'https://mir-s3-cdn-cf.behance.net/project_modules/1400/63d40688081195.5dcb933b924eb.png',
-    technologies: [
-      "React",
-      "Typescript",
-      "Tailwindcss",
-      "Firebase",
-
-    ],
-  },
+  }
 ];
 
 export const TESTIMONIALS: TestimonialDetails[] = [

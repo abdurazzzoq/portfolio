@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { MapPin } from "lucide-react";
 
-import SagarHeadshot from "/public/images/person2.jpg";
+import SagarHeadshot from "/public/images/me-me.jpg";
 import SocialIcons from "@/components/data-display/social-icons";
 import Typography from "@/components/general/typography";
 import Container from "@/components/layout/container";
@@ -16,7 +16,7 @@ const HeroSection = () => {
             <Image
               src={SagarHeadshot}
               alt="Headshot of Sagar"
-              className="absolute z-10 h-[280px] w-[240px] border-8 border-gray max-md:left-5 md:left-0 md:top-0 md:h-[320px] md:w-[280px]"
+              className="absolute z-10 h-[280px] w-[240px] border-8 border-gray max-md:left-5 md:left-0 md:top-0 md:h-[360px] md:w-[280px]"
               style={{ objectFit: "cover" }}
             ></Image>
             <div className="absolute h-[280px] w-[280px] border-8 border-transparent bg-gray-200 max-md:top-5 md:bottom-0 md:right-0 md:h-[320px] md:w-[280px]"></div>

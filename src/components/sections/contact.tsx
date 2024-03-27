@@ -12,7 +12,7 @@ import Container from "@/components/layout/container";
 import useWindowSize from "@/hooks/use-window-size";
 import { copyTextToClipboard } from "@/lib/utils";
 
-let email = "salemialekum34@gmail.com";
+let email = "abdurrozzzaq@gmail.com";
 let phone = "+48 795 692 941";
 
 type CopyValue = "email" | "phone";
